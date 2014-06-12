@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.applescript {
+	margin: 0.5em 0 18px 0;
+	font-family: "Verdana", "sans-serif", "Osaka";
+	/*font-family: monospace;*/
+	width: 99%;
+	/*padding-top: 1px;*/
+	font-size: 11px;
+	line-height: 150%;
+	background-color: #f8f8f8;
+	overflow: auto;
+	/*overflow-y: hidden;*/
+}
+
+.ash_highlighted {
+	/*margin-bottom : 0;*/
+	/*margin-left: 25px;*/
+	white-space: nowrap;
+	color: #999;
+	background-color: #f8f8f8;
+	list-style-position: outside;
+	/*list-style-type: decimal-leading-zero;*/
+	
+	border-left:1px solid #ccc;
+	/*color:#5C5C5C;*/
+	list-style-image:none;
+	/*list-style-position:outside;*/
+	list-style-type:decimal;
+	margin:0 0 1px 45px;
+	padding:0 0 10px;
+}
+
+.ash_plain {
+	font-family: "Verdana", "sans-serif", "Osaka";
+	font-size: 11px;
+	margin-top: 0px;
+	margin-bottom: 0;
+	padding-left: 3em;
+	padding-bottom: 10px;
+	color: #000;
+}
+
+.ash_bar {
+	font: 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-left: 45px;
+	padding: 5px 8px 8px 3px;
+	border-left:1px solid #ccc;
+
+}
+
+.ash_bar_plain {
+	font: 9px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin-left: 45px;
+	padding: 5px 8px 8px 4px;
+
+}
+
+span.ash_as_reserved	{ color: #000; font-weight: bold; }
+span.ash_reserved	{ color: #40f; }
+span.ash_variable	{ color: #390; }
+span.ash_handler	{ color: #390; }
+span.ash_quoted		{ color: #c3c; }
+span.ash_symbol		{ color: #000; }
+span.ash_normal		{ color: #000; }
+span.ash_comment	{ color: #777; }
+span.ash_nonum		{ color: #333; }
+
+.applescript ol {
+	list-style: decimal; /* for ie */
+
+}
+
+.applescript li {
+	margin-left: 0;
+	border: none;
+	padding-left: 1em;
+}
+
+li.ash_odd {
+	/*border-left: solid 1px #ccc;*/
+	background-color: #fff;
+	padding-left: 1em;
+}
+
+.ash_button {
+	color: #555;
+	padding: 3px 5px 3px 5px;
+	margin-left: 0.3em;
+	border: solid 1px #bbb;
+	background-color: #eee;
+	font-size: 10px;
+}
